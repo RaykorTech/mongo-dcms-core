@@ -1,4 +1,4 @@
-# mongo-dcms
+# mongo-dcms-core
 > core libarary of mongodb document content management system 
 
 [![Build Status][travis-ci-img]][travis-ci-url] 
@@ -68,7 +68,8 @@ mongoDcmsCore.uploadFile({filePath : '/tmp/appUploads/acd-001f-1234.jpg', fileNa
 ```js
 npm test
 ```
-
+## License
+[MIT][license-url]
 
 [license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [license-url]: LICENSE
