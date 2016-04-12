@@ -1,0 +1,12 @@
+{
+    "documentPropertiesMissing": "Document properties are missing",
+    "metadataMissing": "metadata missing",
+    "filePathMissing": "file path missing",
+    "fileNameMissing": "file name missing",
+    "fileContentTypeMissing": "file content type missing",
+    "fileDetailsAreMissing": "file details are missing",
+    "fileNameMissingOnGetAllVersion": "file name missing",
+    "fileMetadataMissing": "file metadata missing",
+    "fileNotFound": "file not found",
+    "fileNotFoundForSpecifiedFileId": "file not found for specified fileId"
+}
