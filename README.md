@@ -37,8 +37,8 @@ npm install mongo-dcms-core --save
         
 ### getAllversionsOfFile (fileDetails, callback)
 * `fileDetails` : An object containing following properties
-    - `fileName` : file name to search
-    - `identityMetaData` : identity metadata to search
+    - `fileName` : file name to search *(optional)*
+    - `identityMetaData` : identity metadata to search 
 * `callback(err,files)` : A callback is called when search is completed or error occured.
     - `err` : string if error else null.
     - `files` :  An array of file object. File object properties (`_id`, `filename`, `uploadDate` and `metadata`)
