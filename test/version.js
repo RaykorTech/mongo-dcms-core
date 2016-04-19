@@ -128,7 +128,7 @@ describe('version', function() {
             }
         });
     });
-    it('should return error file name not found', function(done) {
+    it('should return all files of project id 10', function(done) {
         var fileDetailsForFileSearch = {
             fileDetails: {
                 identityMetaData: {
@@ -142,7 +142,7 @@ describe('version', function() {
                 done();
             }
             else {
-                sucess.should.equal(null);
+                sucess.length.should.greaterThan(0);
                 done();
             }
         });
