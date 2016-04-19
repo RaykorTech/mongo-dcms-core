@@ -1,6 +1,6 @@
 {
   "name": "mongo-dcms-core",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "core library of mongodb document content management system",
   "main": "index.js",
   "scripts": {
