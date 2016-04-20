@@ -1,10 +1,10 @@
 {
   "name": "mongo-dcms-core",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "core library of mongodb document content management system",
   "main": "index.js",
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha"
+    "test": "node node_modules/standard/bin/cmd && node node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -24,15 +24,16 @@
   },
   "homepage": "https://github.com/RaykorTech/mongo-dcms-core#readme",
   "licenses": [
-        {
-            "type": "MIT",
-            "url": "https://github.com/RaykorTech/mongo-dcms-core/LICENSE"
-        }
-    ],
+    {
+      "type": "MIT",
+      "url": "https://github.com/RaykorTech/mongo-dcms-core/LICENSE"
+    }
+  ],
   "devDependencies": {
     "mocha": "^2.4.5",
+    "mongodb": "^2.1.16",
     "should": "^8.3.0",
-    "mongodb": "^2.1.16"
+    "standard": "^6.0.8"
   },
   "dependencies": {
     "async": "^2.0.0-rc.3",

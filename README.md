@@ -4,6 +4,7 @@
 [![Build Status][travis-ci-img]][travis-ci-url] 
 [![npm version][npm-version-img]][npm-version-url] 
 [![Dependency Status][dependancy-status-img]][dependancy-status-url]
+[![js-standard-style][js-standard-style-img]][js-standard-style-url]
 
 [![NPM](https://nodei.co/npm/mongo-dcms-core.png?downloadRank=true&downloads=true)](https://nodei.co/npm/mongo-dcms-core/)
 
@@ -79,3 +80,5 @@ npm test
 [npm-version-url]: http://badge.fury.io/js/mongo-dcms-core
 [dependancy-status-img]: https://gemnasium.com/RaykorTech/mongo-dcms-core.svg
 [dependancy-status-url]: https://gemnasium.com/RaykorTech/mongo-dcms-core
+[js-standard-style-img]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
+[js-standard-style-url]: http://standardjs.com/
